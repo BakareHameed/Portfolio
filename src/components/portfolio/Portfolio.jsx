@@ -1,11 +1,11 @@
 import React from 'react'
 import './portfolio.css'
-import huddle from '../../assets/desktop-preview.jpg'
+import furniture from '../../assets/Furniture-App.png'
 import space from '../../assets/mars.jpg'
 import basket from '../../assets/active-states-basket-empty.jpg'
 import intro from '../../assets/intro-section.jpg'
 import nft from '../../assets/nft.jpg'
-import todo from '../../assets/active-states-dark.jpg'
+import todo from '../../assets/movie.JPG'
 
 const Portfolio = () => {
   return (
@@ -16,12 +16,12 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         <article className='portfolio__item'>
           <div className="portfolio_item-image">
-            <img src={huddle} alt="huddle site" />
+            <img src={furniture} alt="furniture site" />
           </div>
           <h3>This is a portfolio item title</h3>
           <div className='cta'>
-            <a href="https://github.com" className='btn' target='_blank' rel="noreferrer">GitHub</a>
-            <a href="https://github.com" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+            <a href="https://github.com/BakareHameed/Furniture-App-" className='btn' target='_blank' rel="noreferrer">GitHub</a>
+            <a href="https://flourishing-kleicha-f590bd.netlify.app/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
           </div>
         </article>
         <article className='portfolio__item'>
@@ -68,10 +68,10 @@ const Portfolio = () => {
           <div className="portfolio_item-image">
             <img src={todo} alt=""/>
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Movie Hub</h3>
           <div className='cta'>
-            <a href="https://github.com" className='btn' target='_blank' rel="noreferrer">GitHub</a>
-            <a href="https://github.com" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+            <a href="https://github.com/BakareHameed/Movie-app" className='btn' target='_blank' rel="noreferrer">GitHub</a>
+            <a href="https://frabjous-gingersnap-c0cc18.netlify.app/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
           </div>
         </article>
       </div>
