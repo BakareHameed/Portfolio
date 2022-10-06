@@ -1,6 +1,6 @@
 import React from 'react'
 import '../about/about.css'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/blue.png'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderOpened} from 'react-icons/vsc'
@@ -14,11 +14,11 @@ const About = () => {
       <h2>About me</h2>
 
       <div className='container about__container'>
-        <div className="about__me">
+        {/* <div className="about__me">
           <div className="about__me-image">
             <img src={ME} alt="about img" />
           </div>
-        </div>
+        </div> */}
 
         <div className="about__content">
           <div className="about__cards">
@@ -39,7 +39,10 @@ const About = () => {
             </article>
           </div>
 
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, pariatur veritatis, ab non sunt minima, explicabo fuga sed voluptates optio eum odio facilis debitis impedit quaerat quos dolores. Omnis, assumenda!.</p>
+          <p>I'm a Software Engineer.I design software, algorithms, flowcharts and appliations. I also have a solid understanding of database design, version control concepts
+            and the relational database; preferred competencies such as exposure C, C++, Java, HTML, CSS, Javascript,
+            and agile development methodologies
+          </p>
 
           <a href="#contact" className='btn btn-primary'>Let's talk</a>
         </div>
