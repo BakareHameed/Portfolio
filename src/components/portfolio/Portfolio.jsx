@@ -18,7 +18,7 @@ const Portfolio = () => {
           <div className="portfolio_item-image">
             <img src={furniture} alt="furniture site" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Furniture App</h3>
           <div className='cta'>
             <a href="https://github.com/BakareHameed/Furniture-App-" className='btn' target='_blank' rel="noreferrer">GitHub</a>
             <a href="https://flourishing-kleicha-f590bd.netlify.app/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
