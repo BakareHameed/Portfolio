@@ -1,11 +1,11 @@
 import React from 'react'
 import './portfolio.css'
 import furniture from '../../assets/Furniture-App.png'
-import space from '../../assets/mars.jpg'
+import todo from '../../assets/hameedtodoapp.png'
 import basket from '../../assets/active-states-basket-empty.jpg'
 import intro from '../../assets/intro-section.jpg'
 import nft from '../../assets/nft.jpg'
-import todo from '../../assets/movie.JPG'
+import movie from '../../assets/movie.JPG'
 
 const Portfolio = () => {
   return (
@@ -21,17 +21,17 @@ const Portfolio = () => {
           <h3>Furniture App</h3>
           <div className='cta'>
             <a href="https://github.com/BakareHameed/Furniture-App-" className='btn' target='_blank' rel="noreferrer">GitHub</a>
-            <a href="https://flourishing-kleicha-f590bd.netlify.app/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+            <a href="https://hameedfurnitureapp.netlify.app/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
           </div>
         </article>
         <article className='portfolio__item'>
           <div className="portfolio_item-image">
-            <img src={space} alt="" />
+            <img src={todo} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Todo App</h3>
           <div className='cta'>
-            <a href="https://github.com" className='btn' target='_blank' rel="noreferrer">GitHub</a>
-            <a href="https://github.com" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+            <a href="https://github.com/BakareHameed/Todo-app" className='btn' target='_blank' rel="noreferrer">GitHub</a>
+            <a href="https://hameedtodoapp.netlify.app/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
           </div>
         </article>
         <article className='portfolio__item'>
@@ -66,7 +66,7 @@ const Portfolio = () => {
         </article>
         <article className='portfolio__item'>
           <div className="portfolio_item-image">
-            <img src={todo} alt=""/>
+            <img src={movie} alt=""/>
           </div>
           <h3>Movie Hub</h3>
           <div className='cta'>
