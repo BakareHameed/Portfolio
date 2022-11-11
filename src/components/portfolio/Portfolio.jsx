@@ -2,7 +2,7 @@ import React from 'react'
 import './portfolio.css'
 import furniture from '../../assets/Furniture-App.png'
 import todo from '../../assets/hameedtodoapp.png'
-import basket from '../../assets/active-states-basket-empty.jpg'
+import dashboard from '../../assets/dashboard.png'
 import intro from '../../assets/intro-section.jpg'
 import nft from '../../assets/nft.jpg'
 import movie from '../../assets/movie.JPG'
@@ -36,12 +36,12 @@ const Portfolio = () => {
         </article>
         <article className='portfolio__item'>
           <div className="portfolio_item-image">
-            <img src={basket} alt="" />
+            <img src={dashboard} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>React Admin Dashboard</h3>
           <div className='cta'>
-            <a href="https://github.com" className='btn' target='_blank' rel="noreferrer">GitHub</a>
-            <a href="https://github.com" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+            <a href="https://github.com/BakareHameed/Admin-Dashboard" className='btn' target='_blank' rel="noreferrer">GitHub</a>
+            <a href="https://senjudashboard.netlify.app/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
           </div>
         </article>
         <article className='portfolio__item'>
