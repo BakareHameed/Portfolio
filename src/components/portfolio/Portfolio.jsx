@@ -3,7 +3,7 @@ import './portfolio.css'
 import furniture from '../../assets/Furniture-App.png'
 import todo from '../../assets/hameedtodoapp.png'
 import dashboard from '../../assets/dashboard.png'
-import intro from '../../assets/intro-section.jpg'
+import intro from '../../assets/starter-files.png'
 import nft from '../../assets/nft.jpg'
 import movie from '../../assets/movie.JPG'
 
@@ -48,10 +48,10 @@ const Portfolio = () => {
           <div className="portfolio_item-image">
             <img src={intro} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Starter Files</h3>
           <div className='cta'>
-            <a href="https://github.com" className='btn' target='_blank' rel="noreferrer">GitHub</a>
-            <a href="https://github.com" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+            <a href="https://https://github.com/BakareHameed/Dev-files-front-end-Mentor" className='btn' target='_blank' rel="noreferrer">GitHub</a>
+            <a href="https://hameeddevfiles.netlify.app/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
           </div>
         </article>
         <article className='portfolio__item'>
