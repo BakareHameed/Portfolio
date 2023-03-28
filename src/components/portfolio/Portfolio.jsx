@@ -2,10 +2,10 @@ import React from 'react'
 import './portfolio.css'
 import furniture from '../../assets/Furniture-App.png'
 import todo from '../../assets/hameedtodoapp.png'
-import dashboard from '../../assets/dashboard.png'
-import intro from '../../assets/starter-files.png'
-import nft from '../../assets/nft.jpg'
+import dashboard from '../../assets/dashboard.JPG'
+import intro from '../../assets/starter-files.JPG'
 import movie from '../../assets/movie.JPG'
+import tesla from '../../assets/tesla.png'
 
 const Portfolio = () => {
   return (
@@ -24,16 +24,18 @@ const Portfolio = () => {
             <a href="https://hameedfurnitureapp.netlify.app/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
           </div>
         </article>
+
         <article className='portfolio__item'>
           <div className="portfolio_item-image">
-            <img src={todo} alt="" />
+            <img src={tesla} alt="" />
           </div>
-          <h3>Todo App</h3>
+          <h3>Tesla site clone</h3>
           <div className='cta'>
-            <a href="https://github.com/BakareHameed/Todo-app" className='btn' target='_blank' rel="noreferrer">GitHub</a>
-            <a href="https://hameedtodoapp.netlify.app/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+            <a href="https://github.com/BakareHameed/tesla-clone" className='btn' target='_blank' rel="noreferrer">GitHub</a>
+            <a href="https://tesla-clone-f78b9.web.app" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
           </div>
         </article>
+
         <article className='portfolio__item'>
           <div className="portfolio_item-image">
             <img src={dashboard} alt="" />
@@ -44,6 +46,18 @@ const Portfolio = () => {
             <a href="https://senjudashboard.netlify.app/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
           </div>
         </article>
+
+        <article className='portfolio__item'>
+          <div className="portfolio_item-image">
+            <img src={todo} alt="" />
+          </div>
+          <h3>Todo App</h3>
+          <div className='cta'>
+            <a href="https://github.com/BakareHameed/Todo-app" className='btn' target='_blank' rel="noreferrer">GitHub</a>
+            <a href="https://hameedtodoapp.netlify.app/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+          </div>
+        </article>
+
         <article className='portfolio__item'>
           <div className="portfolio_item-image">
             <img src={intro} alt="" />
@@ -52,16 +66,6 @@ const Portfolio = () => {
           <div className='cta'>
             <a href="https://https://github.com/BakareHameed/Dev-files-front-end-Mentor" className='btn' target='_blank' rel="noreferrer">GitHub</a>
             <a href="https://hameeddevfiles.netlify.app/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
-          </div>
-        </article>
-        <article className='portfolio__item'>
-          <div className="portfolio_item-image">
-            <img src={nft} alt="" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className='cta'>
-            <a href="https://github.com" className='btn' target='_blank' rel="noreferrer">GitHub</a>
-            <a href="https://github.com" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
           </div>
         </article>
         <article className='portfolio__item'>
