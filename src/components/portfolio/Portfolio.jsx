@@ -6,6 +6,7 @@ import dashboard from '../../assets/dashboard.JPG'
 import intro from '../../assets/starter-files.JPG'
 import movie from '../../assets/movie.JPG'
 import tesla from '../../assets/tesla.png'
+import shopmart from '../../assets/shopmart.PNG'
 
 const Portfolio = () => {
   return (
@@ -49,12 +50,12 @@ const Portfolio = () => {
 
         <article className='portfolio__item'>
           <div className="portfolio_item-image">
-            <img src={todo} alt="" />
+            <img src={shopmart} alt="" />
           </div>
-          <h3>Todo App</h3>
+          <h3>ShopMart</h3>
           <div className='cta'>
-            <a href="https://github.com/BakareHameed/Todo-app" className='btn' target='_blank' rel="noreferrer">GitHub</a>
-            <a href="https://hameedtodoapp.netlify.app/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+            <a href="https://github.com/BakareHameed/ShopMart" className='btn' target='_blank' rel="noreferrer">GitHub</a>
+            <a href="https://shop-martt.netlify.app//" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
           </div>
         </article>
 
